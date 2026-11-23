@@ -1614,10 +1614,10 @@ h3{font-size:21px}
       </ol>
       <div class="devs" aria-hidden="true">
         <div class="laptop"><div class="lp-bar"><i></i><i></i><i></i><span>umzugsservice-zuerich.ch</span></div><div class="lp-screen"><div class="scr s1"><div class="u-h"><b>umzugsservice-</b><em>zuerich.ch</em></div><h4>Planen Sie einen Umzug?</h4><div class="u-f">Von wo ziehen Sie um?</div><div class="u-f">Wohin ziehen Sie?</div><div class="u-b">Offerte anfragen<i class="tap"></i></div></div>
-<div class="scr s2"><div class="u-p"><span></span></div><small>Schritt 2 von 4 · Ihr Umzug</small><label>Von</label><div class="u-f"><span class="ty t1" style="--w:9ch">8001 Zürich</span></div><label>Nach</label><div class="u-f"><span class="ty t2" style="--w:13ch">8400 Winterthur</span></div><label>Datum</label><div class="u-f"><span class="ty t3" style="--w:10ch">31.03.2027</span></div><div class="u-c"><span class="c1">3 Zimmer</span><span class="c2">Lift</span><span class="c3">Reinigung</span></div></div>
+<div class="scr s2"><div class="u-p"><span></span></div><small>Schritt 2 von 4 · Ihr Umzug</small><label>Von</label><div class="u-f"><span class="ty t1" style="--w:9ch">8001 Zürich</span></div><label>Nach</label><div class="u-f"><span class="ty t2" style="--w:13ch">8400 Winterthur</span></div><label>Datum</label><div class="u-f"><span class="ty t3" style="--w:10ch">31.03.2027</span></div><div class="u-c"><span class="c1">3 Zimmer</span><span class="c2">Einpacken</span><span class="c3">Reinigung</span></div></div>
 <div class="scr s3"><div class="u-ok"><svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"/><path d="M15 27l8 8 15-17"/></svg></div><h4>Offerte erhalten</h4><div class="u-o"><div class="u-oh"><b>Ihre Umzugsfirma</b><span>Region Zürich</span></div><i></i><i></i><i style="width:58%"></i><div class="u-ob"><span>Offerte ansehen</span></div></div><small>Sie entscheiden, ob Sie annehmen.</small></div></div></div>
         <div class="phone"><div class="ph-notch"></div><div class="ph-screen"><div class="scr s1"><div class="u-h"><b>umzugsservice-</b><em>zuerich.ch</em></div><h4>Planen Sie einen Umzug?</h4><div class="u-f">Von wo ziehen Sie um?</div><div class="u-f">Wohin ziehen Sie?</div><div class="u-b">Offerte anfragen<i class="tap"></i></div></div>
-<div class="scr s2"><div class="u-p"><span></span></div><small>Schritt 2 von 4 · Ihr Umzug</small><label>Von</label><div class="u-f"><span class="ty t1" style="--w:9ch">8001 Zürich</span></div><label>Nach</label><div class="u-f"><span class="ty t2" style="--w:13ch">8400 Winterthur</span></div><label>Datum</label><div class="u-f"><span class="ty t3" style="--w:10ch">31.03.2027</span></div><div class="u-c"><span class="c1">3 Zimmer</span><span class="c2">Lift</span><span class="c3">Reinigung</span></div></div>
+<div class="scr s2"><div class="u-p"><span></span></div><small>Schritt 2 von 4 · Ihr Umzug</small><label>Von</label><div class="u-f"><span class="ty t1" style="--w:9ch">8001 Zürich</span></div><label>Nach</label><div class="u-f"><span class="ty t2" style="--w:13ch">8400 Winterthur</span></div><label>Datum</label><div class="u-f"><span class="ty t3" style="--w:10ch">31.03.2027</span></div><div class="u-c"><span class="c1">3 Zimmer</span><span class="c2">Einpacken</span><span class="c3">Reinigung</span></div></div>
 <div class="scr s3"><div class="u-ok"><svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"/><path d="M15 27l8 8 15-17"/></svg></div><h4>Offerte erhalten</h4><div class="u-o"><div class="u-oh"><b>Ihre Umzugsfirma</b><span>Region Zürich</span></div><i></i><i></i><i style="width:58%"></i><div class="u-ob"><span>Offerte ansehen</span></div></div><small>Sie entscheiden, ob Sie annehmen.</small></div></div></div>
         </div>
     </div>
@@ -1706,8 +1706,7 @@ h3{font-size:21px}
         </div>
         <div class="pz-blk" style="--i:2"><div class="pz-h"><span>3</span><h3>Was soll dazugehören?</h3></div>
           <fieldset class="full"><legend class="sr">Leistungen</legend>
-          <label class="chk"><input type="checkbox" id="p_lift"><span>Lift vorhanden</span></label>
-          <label class="chk"><input type="checkbox" data-ps="Möbelmontage"><span>Möbelmontage</span></label>
+          <input type="checkbox" id="p_lift" hidden style="display:none"><label class="chk"><input type="checkbox" data-ps="Möbelmontage"><span>Möbelmontage</span></label>
           <label class="chk"><input type="checkbox" data-ps="Umzugsreinigung"><span>Reinigung</span></label>
           <label class="chk"><input type="checkbox" data-ps="Einpackservice"><span>Verpackungsservice</span></label>
           <label class="chk"><input type="checkbox" data-ps="Entsorgung"><span>Entsorgung</span></label>
@@ -1882,9 +1881,9 @@ h3{font-size:21px}
           <div id="f_private">
             <p class="sec-t">Wohnungsgrösse</p>
             <div class="opts" id="f_size"></div><span class="err" id="f_size_e"></span>
-            <div class="g2" style="margin-top:20px">
+            <div class="g2" style="margin-top:20px;grid-template-columns:1fr">
               <div class="field"><label for="f_floor">Stockwerk (Auszug)</label><select id="f_floor"><option value="">Nicht angegeben</option><option>Erdgeschoss</option><option>1. Stock</option><option>2. Stock</option><option>3. Stock</option><option>4. Stock</option><option>5. Stock oder höher</option></select></div>
-              <div class="field"><label for="f_lift">Lift vorhanden</label><select id="f_lift"><option value="">Nicht angegeben</option><option>Ja</option><option>Nein</option></select></div>
+              <input type="hidden" id="f_lift" value="">
             </div>
             <p class="sec-t" style="margin-top:20px">Besondere Gegenstände (optional)</p>
             <div class="opts" id="f_special"></div>
